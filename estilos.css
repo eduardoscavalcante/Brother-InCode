@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .logo{
 	width: 384px;
 	height: 52px;
@@ -5,7 +12,7 @@
 	top: 14px;
 	padding-left: 30px;
 
-	font-family: 'Fira Code';
+	font-family: 'Fira Sans', sans-serif;
 	font-style: normal;
 	font-weight: 300;
 	font-size: 40px;
@@ -13,61 +20,106 @@
 	color: #00B907;
 }
 
-
 body{
 	padding: 15px;
 	width: 100%;
 	height: 100%;
 	margin: 0;
-	background: url(bg.jpeg) repeat ;
+	background: url(img/bg.jpeg) repeat;
 }
 
-#conteiner{
-	width: 1050px;
+#container{
+	display: flex;
+	align-items: center;
+	width: 1238px;
 	margin: 0 auto;
 }
 
 #topo-menu{
 	margin-top: 30px;
-	background: rgb(209, 202, 202);
-	float: left;
+	background: #C3C3C3;
 }
-#topo-menu li{
-	float: left;
+
+#topo-menu ul {
+    max-width: 1238px;
+    list-style: none;
+    padding: 0;
 }
-#topo-menu ul a{
+
+#topo-menu ul li {
+    display: inline-block;
+}
+
+#topo-menu ul li a {
+    color: #7C7C7C;
 	font-size: 0.9em;
-	display: block;
-	padding: 0.5em 1.5em;
+    padding: 0.5em 1.5em;
+    display: inline-block;
 	line-height: 2.1em;
-	
+    transition: background .4s;
+
+	border-right: 1px solid #7C7C7C;
+
+	text-decoration: none;
+	font-family: 'Fira Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 21px;
 }
-#topo-menu ul a:hover{
-	color: rgb(255, 0, 0);
+
+#topo-menu ul li a .icone{
+    width: 17px;
+ 	height: 17px;
+}
+
+#topo-menu ul li a:hover {
+    color: black;
+    background-color: #D9D9D9
+}
+
+.selected {
+    color: black;
+    background-color: #D9D9D9
+}
+
+#corpo{
+	box-sizing: border-box;
+	position: static;
+	width: 1238px;
+	height: 826px;
+	margin: 0 auto;
+	background: #FFFFFF;
+	border: 31px solid #D9D9D9;
 }
 
 #Login{
 	/* identical to box height */
-	position: fixed;
+	position: absolute;
 	width: 170px;
 	height: 50px;
-	left: 1169px;
+	left: 1120px;
 	top: 20px;
 	background: #006404;
 	border-radius: 50px;
-	
 }
+
 #Login a{
 	text-decoration: none;
 	/*texto no login*/
 	text-align: center;
 	line-height: 40px;
-	font-family: 'Fira Code';
+	font-family: 'Fira Sans', sans-serif;
 	font-style: normal;
-	font-weight: 500px;
-	padding-left: 40px;
+	font-weight: bold;
+	padding-left: 50px;
 	font-size: 32px;
 	line-height: 42px;
 	color: #FFFFFF;
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Login:hover{
+	background: #27c42c;
+	font-weight: bolder;
 }
