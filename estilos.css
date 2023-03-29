@@ -114,7 +114,6 @@ body{
 	box-sizing: border-box;
 	position: static;
 	width: 1238px;
-	height: 826px;
 	margin: 0 auto;
 	background: #FFFFFF;
 	border: 31px solid #D9D9D9;
@@ -159,5 +158,41 @@ body{
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 26px;
-	color:black;
+	color: black;
+}
+
+#texto-corpo {
+	display: block;
+	text-align: center;
+	position: relative;
+	padding: 50px;
+}
+
+#texto-corpo h1 {
+	font-family: 'Fira Code', monospace;
+}
+
+#texto-corpo .marked {
+	color: #00B907;
+}
+
+#texto-corpo .descricao {
+	text-align: justify;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 26px;
+	color: black;
+}
+
+#texto-corpo-dif {
+	background-color: #00B907;
+	display: block;
+	text-align: center;
+	position: relative;
+	padding: 50px;
+}
+
+#texto-corpo-dif p{
+	color: white;
+	font-family: 'Fira Code', monospace;
 }
