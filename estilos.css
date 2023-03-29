@@ -357,12 +357,10 @@ body{
 }
 
 #foto_perfil{
-	position: relative;
 	display: block;
 	align-items: center;
-	background: #d4cccc;
-	padding:20px 20px;
-	border-radius: 100%;
+	position: relative;
+	padding: 20px;
 
 }
 
@@ -371,8 +369,19 @@ body{
 	background: #d4cccc;
 	padding: 20px;
 	border-radius: 100%;
-	margin-left: 80%;
+	margin-right: 80%;
+	margin-top: 40%;
+	
+	/*texto no login
+	text-decoration: none;
+	text-align: center;
+	line-height: 40px;
+	font-family: 'Fira Code', monospace;
+	font-style: normal;
+	font-weight: bold;*/
+	
+	font-size: 25px;
 	line-height: 42px;
 	color: #006404;
-
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
