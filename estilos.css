@@ -83,6 +83,7 @@ body{
     background-color: #D9D9D9
 }
 
+/*PARTE LOGIN*/
 #Login a{
 	position: absolute;
 	width: 170px;
@@ -110,13 +111,106 @@ body{
 	font-weight: bolder;
 }
 
+#LoginTela{
+	border-radius: 30px;
+	width:480px; /*largura*/
+	height: 500px; /* altura do quadrado */
+	background-color: rgb(255, 255, 255); /* cor de fundo do quadrado */
+	position: absolute; /* posição absoluta para centralizar na página */
+	top: 30%; /* define a distância do topo */
+	left: 40%; /* define a distância da esquerda */
+	margin-top: -100px; /* ajusta o posicionamento para o topo */
+	margin-left: -100px; /* ajusta o posicionamento para a esquerda */
+}
+
+#LoginTela input{
+	position: relative;
+	width: 384px;
+	height: 50px;
+	margin-top: 8%;
+	left: 10%;
+	text-align: center;
+	font-size: medium;
+
+	background: #D9D9D9;
+	box-shadow: inset 0px 0px 10px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+}
+
+#entrarLogin{
+	position: relative;
+	width: 380px;
+	height: 50px;
+	margin-top: 5%;
+	left: 10%;
+	background: #006404;
+	border-radius: 50px;
+
+	position: relative;
+	width: 384px;
+	height: 50px;
+	margin-top: 10%;
+	left: 10%;
+	text-align: center;	
+}
+
+#entrarLogin a{	
+	
+	line-height: 40px;
+	font-family: 'Fira Code', monospace;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 42px;
+	color: #FFFFFF;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);	
+}
+
+#LoginTela a{
+	text-decoration: none;
+}
+
+#preregister{
+	position: relative;
+	width: 228px;
+	height: 26px;
+	margin-top: 5%;
+	left: 25%;
+	margin-bottom: 0%;
+
+	font-family: 'Fira Code';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 26px;
+	text-align: center;
+
+	color: #006404;
+}
+#preregister a:hover,a:visited {
+    color: #006404;
+}
+
+#divisor{
+	position: relative;
+	width: 345px;
+	height: 0px;
+	margin-top: 5%;
+	margin-bottom: 0%;
+	left: 15%;
+
+	border: 1px solid #006404;
+}
+
+/*FIM LOGIN*/
+
 #corpo{
 	box-sizing: border-box;
 	position: static;
 	width: 1238px;
 	margin: 0 auto;
-	background: #FFFFFF;
-	border: 31px solid #D9D9D9;
+	background: #f5f4f4;
+	border: 31px solid #d4cccc;
 }
 
 #img-container {
