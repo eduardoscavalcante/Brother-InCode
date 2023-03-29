@@ -322,3 +322,57 @@ body{
 	background: #27c42c;
 	font-weight: bolder;
 }
+
+#botao{
+	display: block;
+	align-items: center;
+	position: relative;
+	padding: 20px;
+}
+
+#botao a{
+	position: relative;
+	background: #006404;
+	padding: 20px;
+	border-radius: 100%;
+	margin-left: 80%;
+	
+	/*texto no login
+	text-decoration: none;
+	text-align: center;
+	line-height: 40px;
+	font-family: 'Fira Code', monospace;
+	font-style: normal;
+	font-weight: bold;*/
+	
+	font-size: 25px;
+	line-height: 42px;
+	color: #FFFFFF;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#botao a:hover{
+	background: #27c42c;
+	font-weight: bolder;
+}
+
+#foto_perfil{
+	position: relative;
+	display: block;
+	align-items: center;
+	background: #d4cccc;
+	padding:20px 20px;
+	border-radius: 100%;
+
+}
+
+#foto_perfil a{
+	position: relative;
+	background: #d4cccc;
+	padding: 20px;
+	border-radius: 100%;
+	margin-left: 80%;
+	line-height: 42px;
+	color: #006404;
+
+}
