@@ -333,3 +333,133 @@ body{
 	background: #27c42c;
 	font-weight: bolder;
 }
+
+#botao{
+	display: block;
+	align-items: center;
+	position: relative;
+	padding: 20px;
+}
+
+#botao a{
+	position: relative;
+	background: #006404;
+	padding: 20px;
+	border-radius: 100%;
+	margin-left: 80%;
+	
+	/*texto no login
+	text-decoration: none;
+	text-align: center;
+	line-height: 40px;
+	font-family: 'Fira Code', monospace;
+	font-style: normal;
+	font-weight: bold;*/
+	
+	font-size: 25px;
+	line-height: 42px;
+	color: #FFFFFF;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#botao a:hover{
+	background: #27c42c;
+	font-weight: bolder;
+}
+
+#foto_perfil{
+	display: block;
+	align-items: center;
+	position: relative;
+	padding: 20px;
+	height: 50px;
+	width: 50px;
+}
+
+#foto_perfil a{
+	position: relative;
+	background: #d4cccc;
+	padding: 20px;
+	border-radius: 100%;
+	margin-right: 90%;
+	margin-top: 40%;
+	height: 50px;
+	width: 50px;
+	/*texto no login
+	text-decoration: none;
+	text-align: center;
+	line-height: 40px;
+	font-family: 'Fira Code', monospace;
+	font-style: normal;
+	font-weight: bold;*/
+	
+	font-size: 25px;
+	line-height: 42px;
+	color: #006404;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#foto_perfil a:hover{
+background:#bfb7b7;
+}
+
+#sobre{
+	position:absolute;
+	background:#63b366ac;
+	color:#006404;
+	margin: -145px 55px 20% 840px;
+	border-radius: 20%;
+	padding: 10px 60px 20px 30px;
+	text-align: left;
+	font-family: 'Fira Code', monospace;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	text-align: left;
+}
+
+#areas{
+	position:absolute;
+	background:#d4cccc;
+	color:#006404;
+	text-align: left;
+	font-family: 'Fira Code', monospace;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	text-align: left;
+	padding: 0px 240px 20px 30px;
+	border-radius: 10%;
+	margin-bottom: 500px;
+	margin-top: -120px;
+}
+
+#tutor{
+	position:fixed;
+	font-family: 'Fira Code', monospace;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	color: #006404;
+	text-align: left;
+}
+
+#capa{
+	font-family: 'Fira Code', monospace;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+#estrela{
+	display: block;
+}
+
+#estrela a{
+	color: #FFFFFF;
+}
+
+#estrela a:hover{
+	color:#006404;
+	
+}
