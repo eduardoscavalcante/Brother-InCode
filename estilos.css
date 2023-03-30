@@ -213,7 +213,17 @@ body{
 	border: 1px solid #006404;
 }
 
+#entrarLogin:hover{
+	background: #27c42c;
+	font-weight: bolder;
+}
+
 /*FIM LOGIN*/
+
+#perfil {
+	display: flex;
+    justify-content: space-around;
+}
 
 #corpo{
 	box-sizing: border-box;
@@ -435,7 +445,7 @@ background:#bfb7b7;
 }
 
 #tutor{
-	position:fixed;
+	position:absolute;
 	font-family: 'Fira Code', monospace;
 	font-style: normal;
 	font-weight: 600;
@@ -462,4 +472,106 @@ background:#bfb7b7;
 #estrela a:hover{
 	color:#006404;
 	
+}
+
+#img-perfil {
+	margin-top: 100px;
+	margin-right: 150px;
+}
+
+#img-perfil button {
+	position: relative;
+	width: 184px;
+	margin-top: 5%;
+	margin-left: 10%;
+	font-family: 'Fira Code', monospace;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 26px;
+	color: white;
+	background: #006404;
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 0px;
+}
+
+#img-perfil button:hover {
+	color: white;
+	background: #27c42c;
+}
+
+#texto-perfil {
+	display: flex;
+	text-align: left;
+	margin-left: 100px;
+	margin-right: -150px;
+	position: relative;
+	padding: 50px;
+	font-family: 'Fira Code', monospace;
+}
+
+#texto-perfil input {
+	position: relative;
+	width: 284px;
+	height: 40px;
+	margin-bottom: 4%;
+	font-size: large;
+
+	background: #D9D9D9;
+	box-shadow: inset 0px 0px 10px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	text-indent: 10px;
+}
+
+#texto-perfil .disciplinas {
+	width: 454px;
+	height: 144px;
+	text-indent: 10px;
+}
+
+#texto-perfil button {
+	position: relative;
+	float: left;
+	width: 184px;
+	margin-top: 5%;
+	font-family: 'Fira Code', monospace;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 26px;
+	color: black;
+	background: #f3f3f3;
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+}
+
+#texto-perfil .salvar {
+	width: 244px;
+	height: 40px;
+	background: #006404;
+	color: white;
+	margin-top: 3%;
+}
+
+
+#texto-perfil .salvar:hover {
+	background: #27c42c;
+}
+
+#texto-perfil .cancelar {
+	width: 184px;
+	height: 30px;
+	background: #d1d1d1;
+	color: black;
+	margin-left: 5%;
+}
+
+
+#texto-perfil .cancelar:hover {
+	color: white;
+	background: #991818;
+}
+
+#texto-perfil button:hover {
+	background: #cecece;
 }
