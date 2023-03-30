@@ -166,6 +166,11 @@ body{
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);	
 }
 
+#entrarLogin a:hover{
+	background: #27c42c;
+	font-weight: bolder;
+}
+
 #LoginTela a{
 	text-decoration: none;
 }
@@ -203,6 +208,11 @@ body{
 }
 
 /*FIM LOGIN*/
+
+#perfil {
+	display: flex;
+    justify-content: space-around;
+}
 
 #corpo{
 	box-sizing: border-box;
@@ -255,6 +265,32 @@ body{
 	color: black;
 }
 
+#img-perfil {
+	margin-top: 100px;
+	margin-right: 150px;
+}
+
+#img-perfil button {
+	position: relative;
+	width: 184px;
+	margin-top: 5%;
+	margin-left: 10%;
+	font-family: 'Fira Code', monospace;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 26px;
+	color: white;
+	background: #006404;
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 0px;
+}
+
+#img-perfil button:hover {
+	color: white;
+	background: #27c42c;
+}
+
 #texto-corpo {
 	display: block;
 	text-align: center;
@@ -291,6 +327,82 @@ body{
 	font-family: 'Fira Code', monospace;
 }
 
+#texto-perfil {
+	display: flex;
+	text-align: left;
+	margin-left: 100px;
+	margin-right: -150px;
+	position: relative;
+	padding: 50px;
+	font-family: 'Fira Code', monospace;
+}
+
+#texto-perfil input {
+	position: relative;
+	width: 284px;
+	height: 40px;
+	margin-bottom: 4%;
+	font-size: large;
+
+	background: #D9D9D9;
+	box-shadow: inset 0px 0px 10px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	text-indent: 10px;
+}
+
+#texto-perfil .disciplinas {
+	width: 454px;
+	height: 144px;
+	text-indent: 10px;
+}
+
+#texto-perfil button {
+	position: relative;
+	float: left;
+	width: 184px;
+	margin-top: 5%;
+	font-family: 'Fira Code', monospace;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 26px;
+	color: black;
+	background: #f3f3f3;
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+}
+
+#texto-perfil .salvar {
+	width: 244px;
+	height: 40px;
+	background: #006404;
+	color: white;
+	margin-top: 3%;
+}
+
+
+#texto-perfil .salvar:hover {
+	background: #27c42c;
+}
+
+#texto-perfil .cancelar {
+	width: 184px;
+	height: 30px;
+	background: #d1d1d1;
+	color: black;
+	margin-left: 5%;
+}
+
+
+#texto-perfil .cancelar:hover {
+	color: white;
+	background: #991818;
+}
+
+#texto-perfil button:hover {
+	background: #cecece;
+}
+
 #button{
 	display: block;
 	text-align: center;
@@ -323,65 +435,7 @@ body{
 	font-weight: bolder;
 }
 
-#botao{
-	display: block;
-	align-items: center;
-	position: relative;
-	padding: 20px;
-}
-
-#botao a{
-	position: relative;
-	background: #006404;
-	padding: 20px;
-	border-radius: 100%;
-	margin-left: 80%;
-	
-	/*texto no login
-	text-decoration: none;
-	text-align: center;
-	line-height: 40px;
-	font-family: 'Fira Code', monospace;
-	font-style: normal;
-	font-weight: bold;*/
-	
-	font-size: 25px;
-	line-height: 42px;
-	color: #FFFFFF;
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-#botao a:hover{
-	background: #27c42c;
-	font-weight: bolder;
-}
-
-#foto_perfil{
-	display: block;
-	align-items: center;
-	position: relative;
-	padding: 20px;
-
-}
-
-#foto_perfil a{
-	position: relative;
-	background: #d4cccc;
-	padding: 20px;
-	border-radius: 100%;
-	margin-right: 80%;
-	margin-top: 40%;
-	
-	/*texto no login
-	text-decoration: none;
-	text-align: center;
-	line-height: 40px;
-	font-family: 'Fira Code', monospace;
-	font-style: normal;
-	font-weight: bold;*/
-	
-	font-size: 25px;
-	line-height: 42px;
-	color: #006404;
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+label {
+	text-align: left;
+	font-size: 30px;
 }
